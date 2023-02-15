@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+
+    <!-- css connect -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- bootstrap connect -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/312071c9f8.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-secondary">
+    <header>
+        
+            <div class="flex-row justify-content-between mx-auto bg-success w-75 d-flex justify-content-center mt-5">
+              <div class="my-2 ms-5">
+                <button id="btn-bold" class="btn-primary"><i class="fa-solid fa-bold"></i></button>
+               
+                <!-- italic -->
+                <button id="btn-italic" class="btn-primary"><i class="fa-solid fa-italic"></i></button>
+               
+            
+                <!-- underline -->
+                <button id="btn-underline" class="btn-primary"><i class="fa-solid fa-underline"></i></button>
+                
+              </div>
+              <div class="my-2">
+                                 <!-- text align left  -->
+                         <button id="btn-left" class="btn-primary"><i class="fa-solid fa-align-left"></i></button>
+
+                    
+                                 <!--text align center -->
+                        <button id="btn-center" class="btn-primary"><i class="fa-solid fa-align-center"></i></button>
+
+                   
+                              <!--  text align right -->
+                        <button id="btn-right" class="btn-primary"><i class="fa-solid fa-align-right"></i></button>
+              </div>
+              <div class="my-2">
+                
+                <!-- upercase and lower case -->
+                <button id="uppercaseLowercase" class="w-25 btn-primary"><i class="fa-solid fa-text-height"></i></button>
+            
+            
+                <!-- color -->
+                <input type="color" class="w-25" name="" id="color-field">
+                <input type="number" class="w-25" name="" id="number-field" value="12">
+            
+              </div>
+              
+              
+            </div>
+          
+
+          <!--  -->
+          <div class="row w-75 mx-auto">
+            <textarea name="" id="comment" cols="30" rows="10"></textarea>
+
+          </div>
+    </header>
+
+    <!-- js file connect -->
+<script src="js/editor.js"></script>
+</body>
+</html>
